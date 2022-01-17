@@ -1,0 +1,10 @@
+.nyc_output
+/public/coverage
+/public/docs
+node_modules
+package-lock.json
+/log
+app.yaml
+.env
+debug.log
+*.code-workspace
