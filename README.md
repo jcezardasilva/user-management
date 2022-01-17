@@ -5,32 +5,32 @@ A aplicação foi desenvolvida sobre a versão 12.16.3 do NodeJs e as dependênc
 
 ### Instalação para Desenvolvimento
 
-npm install
+>npm install
 
 ### Instalação para Produção
 
-npm run install --production
+>npm run install --production
 
 ### Execução
 
-npm start
+>npm start
 
 ## Variáveis de ambiente
 A aplicação suporta a adição de variáveis de ambiente através de arquivo de configuração.
 crie um arquivo `.env` no diretório raiz.
 Opções suportadas:
 
-PORT - porta de rede para instânciara a aplicação
-CUSTOMCONNSTR_MONGODB - string de conexão para o banco de dados
-BITLY_TOKEN - token de API bitly para gerar links encurtados
-EMAIL_USER - endereço de e-mail (configuração inicial realizada com conta Gmail)
-EMAIL_PASSWORD - senha (ou token) do usuário de e-mail
-NODE_ENV - identifica o ambiente que deseja iniciar a aplicação ["development","production","test"]
-PUBLIC_VAPID_KEY - chave pública da API de push notification
-PRIVATE_VAPID_KEY - chave privada da API de push notification
-GCM_API_KEY - chave da API google cloud
-SERVER - lista de servidores da aplicação para permitir autenticação
-SERPRO_CPF_TOKEN - token da API de validação de CPF
+PORT - porta de rede para instânciara a aplicação\
+CUSTOMCONNSTR_MONGODB - string de conexão para o banco de dados\
+BITLY_TOKEN - token de API bitly para gerar links encurtados\
+EMAIL_USER - endereço de e-mail (configuração inicial realizada com conta Gmail)\
+EMAIL_PASSWORD - senha (ou token) do usuário de e-mail\
+NODE_ENV - identifica o ambiente que deseja iniciar a aplicação ["development","production","test"]\
+PUBLIC_VAPID_KEY - chave pública da API de push notification\
+PRIVATE_VAPID_KEY - chave privada da API de push notification\
+GCM_API_KEY - chave da API google cloud\
+SERVER - lista de servidores da aplicação para permitir autenticação\
+SERPRO_CPF_TOKEN - token da API de validação de CPF\
 
 
 ## Serviços externos
